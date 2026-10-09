@@ -47,7 +47,8 @@
       "beskrivelse": "Dansk politi-Touran af AchillesDKMods. Erstatter GTA's sheriff2 (ægte replace). Lyset bruger pakkens 2016touran.xml som SHERIFF2.xml, fordi pakkens egen SHERIFF2.xml har en fejl.",
       "skaber": "AchillesDKMods",
       "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
-      "distribution": "external",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_e1324cf2eff2485ea9cc2c079d258e78.rar?dn=2016%20Volkswagen%20Touran%20POLITI.rar",
       "forventetFil": "2016 Volkswagen Touran POLITI.rar",
       "sha256": "A071D5A43B88906FC5CC42F7FE75E2818EA4ADB01D9B73B2B4DBA509056B391C",
       "version": "1.1",
@@ -55,7 +56,7 @@
         "politi"
       ],
       "billeder": [
-        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/achillesdk-2016-vw-touran/3c468232f3e509873bacc44b468ba511.jpg"
+        "https://static.wixstatic.com/media/b560f6_659b888f62764f6c815d2f03d270f43c~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2016-vw-touran.jpg"
       ],
       "installationstype": "replace",
       "understoetterReplace": true,
@@ -73,6 +74,533 @@
             "from": "**/2016touran.xml",
             "to": "ELS\\pack_default\\SHERIFF2.xml",
             "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2017-opel-insignia",
+      "kategori": "vehicle",
+      "navn": "2017 Opel Insignia Sports Tourer – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's policeold2 (ægte replace). ELS-lys fra pakken (POLICEOLD2.xml). Filen har en lille fejl fra skaberen, så en enkelt lygte kan mangle.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_23a6ecdd0f0f4a69b6fdcaac90a823f2.rar?dn=2017%20Opel%20Insignia%20Sports%20Tourer.rar",
+      "forventetFil": "2017 Opel Insignia Sports Tourer.rar",
+      "sha256": "CBEC7E85BB829CCF5FA4DD6DA258861999556E8F5AADDD56032D4AE91926683E",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_29a12add9c9042d4ae76a71acba09ab6~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2017-opel-insignia.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "policeold2"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "2017 Opel Insignia Sports Tourer Danish Police\\ELS Settings\\ELS\\pack_default\\POLICEOLD2.xml",
+            "to": "ELS\\pack_default\\POLICEOLD2.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-lamborghini-huracan",
+      "kategori": "vehicle",
+      "navn": "Lamborghini Huracan – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's police4 (ægte replace). ELS-lys fra pakken (POLICE4.xml).",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_0ff7843346644602af9451a5d61c5908.rar?dn=Lamborghini%20Huracan.rar",
+      "forventetFil": "Lamborghini Huracan.rar",
+      "sha256": "68BEEA2CD9D082CAF937C6A0C5A39A896413B5438B8A00A1A7EC746ABACBB24C",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_ace2e0f14ced47e4b66fedf1ff2d4f13~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/lamborghini-huracan.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "police4"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "Lamborghini Huracan POLITI\\Lambo Huracan Manuel installation\\POLICE4.xml",
+            "to": "ELS\\pack_default\\POLICE4.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2009-volvo-xc60",
+      "kategori": "vehicle",
+      "navn": "2009 Volvo XC60 – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's sheriff (ægte replace). Pakken har ingen ELS-lysfil til bilen, så blinklysene kræver din egen ELS-opsætning.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_027462fe1a944aef8fd2854cf580eacb.rar?dn=34f322-Volvo%20XC60.rar",
+      "forventetFil": "34f322-Volvo XC60.rar",
+      "sha256": "FB0DDE2B5AB16A3F1D06ED7FDEE4C92661C01248B301DA9A381DBDCDD5C08C3F",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_43603bfb429547fcb6a1b4db5f5c8c83~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2009-volvo-xc60.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "sheriff"
+      ],
+      "kraever": [],
+      "koen": [],
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2021-vw-arteon",
+      "kategori": "vehicle",
+      "navn": "2021 VW Arteon – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's police2 (ægte replace). Pakken har ingen ELS-lysfil til bilen, så blinklysene kræver din egen ELS-opsætning.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_efae1c90b1844f93a75bb690b6dc8dc0.rar?dn=2021%20Volkswagen%20Arteon%20DRP%20Exclusive.rar",
+      "forventetFil": "2021 Volkswagen Arteon DRP Exclusive.rar",
+      "sha256": "594B57B528D2221A67BA5F64B9BBBF585821E93F431E308D4811D73072166276",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_431e7599aeff4dc9b58b8bb422b77ccf~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2021-vw-arteon.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "police2"
+      ],
+      "kraever": [],
+      "koen": [],
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2019-volvo-v90-hund",
+      "kategori": "vehicle",
+      "navn": "2019 Volvo V90 – Hundepatrulje",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's sheriff (ægte replace). ELS-lys fra pakken (SHERIFF.xml).",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_8dc85732c2814c97ae4d5f08d9a01097.rar?dn=2019%20Volvo%20V90%20Hundepatrulje.rar",
+      "forventetFil": "2019 Volvo V90 Hundepatrulje.rar",
+      "sha256": "56007279CACC8EF10595574F30DE6AEA183B28E5D1F7F2011EFBD2DFF6C747C1",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_162f9562799e4954be0e74feeacec806~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2019-volvo-v90-hund.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "sheriff"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "2019 Volvo V90 Hundevogn\\ELS\\pack_default\\SHERIFF.xml",
+            "to": "ELS\\pack_default\\SHERIFF.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2020-vw-passat",
+      "kategori": "vehicle",
+      "navn": "2020 VW Passat – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's police3 (ægte replace). ELS-lys fra pakken (POLICE3.xml). Filen har en lille fejl fra skaberen, så en enkelt lygte kan mangle.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_e58d261261af48df96791c7f5a145569.rar?dn=2020%20Volkswagen%20Passat.rar",
+      "forventetFil": "2020 Volkswagen Passat.rar",
+      "sha256": "2B38BE80AC90AB3927A307FED95C9702B986ABCA2B1F458E4F54D284FBEBB4C6",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_7409e7b1506d4bea865dc6b3584c535a~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2020-vw-passat.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "police3"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "2020 Volkswagen Passat Facelift POLITI\\ELS\\pack_default\\POLICE3.xml",
+            "to": "ELS\\pack_default\\POLICE3.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2009-ford-mondeo-sedan",
+      "kategori": "vehicle",
+      "navn": "2009 Ford Mondeo Sedan – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's policeold2 (ægte replace). ELS-lys fra pakken (POLICEOLD2.xml).",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_f7062415821441e9b6b5fed87e329c61.rar?dn=2009%20Ford%20Mondeo%20Sedan.rar",
+      "forventetFil": "2009 Ford Mondeo Sedan.rar",
+      "sha256": "4C16153F7C1A47608D2F011D2EE1014D640471DB5F2C566595F1E4628DB215B5",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_7339672847314d999a41c734c5e1815f~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2009-ford-mondeo-sedan.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "policeold2"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "2009 Ford Mondeo Sedan Danish Police\\ELS\\pack_default\\POLICEOLD2.xml",
+            "to": "ELS\\pack_default\\POLICEOLD2.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-bmw-f700",
+      "kategori": "vehicle",
+      "navn": "BMW F700 Offroad – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's policeb (ægte replace). Pakken har ingen ELS-lysfil til bilen, så blinklysene kræver din egen ELS-opsætning.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_b901447695034f58b904ca93dae2c252.rar?dn=BMW%20F700%20Offroad.rar",
+      "forventetFil": "BMW F700 Offroad.rar",
+      "sha256": "7A75F0C3D38BC094083E243CA02F72FACB9262E645AAC4238AACD5BA3C275083",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_fe3f2d3b78c844ada489f1b0d213860c~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/bmw-f700.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "policeb"
+      ],
+      "kraever": [],
+      "koen": [],
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2012-ford-mondeo-hund",
+      "kategori": "vehicle",
+      "navn": "2012 Ford Mondeo – Hundevogn",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's policeold1 (ægte replace). ELS-lys fra pakken (policeold1.xml).",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_9c63ea87c8ea4bf889710b5390ba723e.rar?dn=2012%20Ford%20Mondeo%20Hundevogn.rar",
+      "forventetFil": "2012 Ford Mondeo Hundevogn.rar",
+      "sha256": "C8DAD881E72FF91378DD58D8159A22ADA6FAA8489D4594F33F55C85E1C4C67FC",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_1c00a6aee93b4f65871a8a9cd4c5c667~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2012-ford-mondeo-hund.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "policeold1"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "2012 Ford Mondeo Hundevogn\\Model\\policeold1.xml",
+            "to": "ELS\\pack_default\\policeold1.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-2016-skoda-superb",
+      "kategori": "vehicle",
+      "navn": "2016 Skoda SuperB Combi – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's police2 (ægte replace). ELS-lys fra pakken (POLICE2.xml). Filen har en lille fejl fra skaberen, så en enkelt lygte kan mangle.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_6812fe9e0f12420db3ba7a601ff8c903.rar?dn=2016%20Skoda%20SuperB%20Combi.rar",
+      "forventetFil": "2016 Skoda SuperB Combi.rar",
+      "sha256": "B3405F205A486F95F5175B28CE3F0C1AD41C089BF5DCC7706DA3E332D5C65934",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_5ec325db23754beb83c9bfb4d5a93d5d~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/2016-skoda-superb.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "police2"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "2016 Skoda SuperB Combi Danish Police\\ELS Settings\\ELS\\pack_default\\POLICE2.xml",
+            "to": "ELS\\pack_default\\POLICE2.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-mercedes-vario-riot",
+      "kategori": "vehicle",
+      "navn": "Mercedes Vario – Indsatsvogn",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's riot (ægte replace). ELS-lys fra pakken (RIOT.xml).",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_396190317c204a54b1d3e7919c296de5.rar?dn=Mercedes%20Vario%20Danish%20Riot%20Van.rar",
+      "forventetFil": "Mercedes Vario Danish Riot Van.rar",
+      "sha256": "284AAEEF34B6A048A0CF2950701E3E283F1218399E6FA448854D06A77DD8DD11",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_9b1e523aad05455a8da0bf606acfe54f~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/mercedes-vario-riot.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "riot"
+      ],
+      "kraever": [
+        "els"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFile",
+            "from": "Mercedes Vario Danish Riot Van\\ELS\\pack_default\\RIOT.xml",
+            "to": "ELS\\pack_default\\RIOT.xml",
+            "allowRoot": false
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "achillesdk-bmw-r1200",
+      "kategori": "vehicle",
+      "navn": "BMW R1200 – Politi",
+      "beskrivelse": "Dansk politibil af AchillesDKMods. Erstatter GTA's policeb (ægte replace). Pakken har ingen ELS-lysfil til bilen, så blinklysene kræver din egen ELS-opsætning.",
+      "skaber": "AchillesDKMods",
+      "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
+      "distribution": "direct",
+      "downloadUrl": "https://27637c52-9324-43a5-9ba4-6866c39b2431.filesusr.com/archives/b560f6_2e670f5afaf344edbc189168749892b6.rar?dn=BMW%20R1200.rar",
+      "forventetFil": "BMW R1200.rar",
+      "sha256": "D76E0F11E81AE359D2224C224004BA0EF1D9819B91F1AB26FFCB13B99BF44818",
+      "version": "1.0",
+      "tags": [
+        "politi"
+      ],
+      "billeder": [
+        "https://static.wixstatic.com/media/b560f6_0265b76c14af41cb969f85e2e01bbc6b~mv2.png/v1/fill/w_960,h_540,al_c,q_85,enc_auto/bmw-r1200.jpg"
+      ],
+      "installationstype": "replace",
+      "understoetterReplace": true,
+      "modelnavne": [
+        "policeb"
+      ],
+      "kraever": [],
+      "koen": [],
+      "outfits": []
+    },
+    {
+      "id": "xx9-dansk-alarmcentral",
+      "kategori": "plugin",
+      "navn": "Dansk Alarmcentral",
+      "beskrivelse": "Gør politiradioen i LSPDFR dansk. Vagtcentralen melder opgaver, forbrydelser, steder, biler og retninger på dansk, og 16 danske betjente (kvinder og mænd) svarer over radioen – med digital radiolyd og uden amerikanske bip. LSPDFR's engelske radiolyde bliver erstattet; de gemmes og kommer tilbage, hvis pakken afinstalleres.",
+      "skaber": "xx9",
+      "kilde": "https://xx9mods.dk/?mod=3b2a712d-900c-4f7c-8237-5ae252a07ccc",
+      "distribution": "external",
+      "forventetFil": "Dansk_Vagtcentral_xx9.zip",
+      "version": "1.0",
+      "tags": [
+        "lyd",
+        "sprog"
+      ],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/xx9-dansk-alarmcentral/xx9-dansk-alarmcentral.jpg"
+      ],
+      "installationstype": "addon",
+      "understoetterReplace": false,
+      "modelnavne": [],
+      "kraever": [
+        "lspdfr"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFolder",
+            "from": "Dansk_Vagtcentral_xx9\\Grand Theft Auto V",
+            "to": ".",
+            "allowRoot": true
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "xx9-grammarpolice-dansk",
+      "kategori": "plugin",
+      "navn": "GrammarPolice – Dansk Oversættelse",
+      "beskrivelse": "Tal til vagtcentralen på dansk, og den svarer på dansk: 812 danske talekommandoer, dansk radiomenu og nummerplader med det danske radioalfabet. Det skal du selv installere først (filerne ligger i pakkens mappe \"Installer\"): 1) Microsoft Speech Platform Runtime 11 (SpeechPlatformRuntime.msi), 2) dansk talegenkendelse (MSSpeech_SR_da-DK_TELE.msi), 3) Policing Redefined. Pakken har RAGENativeUI 1.9.3 – har du en nyere, så læg den tilbage efter installationen.",
+      "skaber": "xx9",
+      "kilde": "https://xx9mods.dk/?mod=a4b1494d-1844-4cd2-8fa5-c2facc3baba8",
+      "distribution": "external",
+      "forventetFil": "GrammarPolice_Dansk_xx9.zip",
+      "version": "1.1",
+      "tags": [
+        "plugin",
+        "sprog"
+      ],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/xx9-grammarpolice-dansk/xx9-grammarpolice-dansk.jpg"
+      ],
+      "installationstype": "addon",
+      "understoetterReplace": false,
+      "modelnavne": [],
+      "kraever": [
+        "lspdfr"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFolder",
+            "from": "GrammarPolice_Dansk_xx9\\Grand Theft Auto V",
+            "to": ".",
+            "allowRoot": true
+          }
+        ]
+      },
+      "outfits": []
+    },
+    {
+      "id": "xx9-dansknpc-plus",
+      "kategori": "plugin",
+      "navn": "DanskNPC+",
+      "beskrivelse": "Tal med folk i LSPDFR på dansk: hold en tast nede, sig hvad du vil, og personen svarer højt med sin egen stemme. Kræver mikrofon og internet. Efter installationen: hent en gratis Gemini-nøgle på aistudio.google.com/apikey og sæt den ind efter GeminiNoegle= i plugins\\LSPDFR\\DanskNPCPlus.ini. Policing Redefined anbefales.",
+      "skaber": "xx9",
+      "kilde": "https://xx9mods.dk/?mod=11d054de-8a43-41aa-b931-2194c43bcc63",
+      "distribution": "external",
+      "forventetFil": "DanskNPC+_BETA-2.0.zip",
+      "version": "2.0 beta",
+      "tags": [
+        "plugin"
+      ],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/xx9-dansknpc-plus/xx9-dansknpc-plus.jpg"
+      ],
+      "installationstype": "addon",
+      "understoetterReplace": false,
+      "modelnavne": [],
+      "kraever": [
+        "lspdfr"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFolder",
+            "from": "DanskNPC+\\Grand Theft Auto V",
+            "to": ".",
+            "allowRoot": true
           }
         ]
       },
