@@ -54,7 +54,9 @@
       "tags": [
         "politi"
       ],
-      "billeder": [],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/achillesdk-2016-vw-touran/3c468232f3e509873bacc44b468ba511.jpg"
+      ],
       "installationstype": "replace",
       "understoetterReplace": true,
       "modelnavne": [
