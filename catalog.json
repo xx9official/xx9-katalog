@@ -1,0 +1,45 @@
+{
+  "katalogVersion": 1,
+  "opdateret": "2026-10-09",
+  "pakker": [
+    {
+      "id": "dep-danish-eup-project",
+      "kategori": "eup",
+      "navn": "DEP – Danish EUP Project",
+      "beskrivelse": "Danske politi-, militær- og redningsuniformer til EUP 8 – til både mænd og kvinder. Skifter EUP's teksturer ud med danske og lægger danske LSPDFR-enheder, outfits og stationer ind. Bemærk: pakken erstatter EUP's LSPDFR-filer (agency_eup.xml m.fl.); de originale kommer tilbage ved afinstallation.",
+      "skaber": "DennisTP",
+      "kilde": "https://www.lcpdfr.com/files/file/22504-dep-danish-eup-project/",
+      "distribution": "external",
+      "forventetFil": "DEP_0.6.zip",
+      "sha256": "4547DEB9CC090F88D698B64ECA7622F405083D021CDD31682C148A24E4512334",
+      "version": "0.6",
+      "tags": [
+        "politi",
+        "ambulance"
+      ],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/dep-danish-eup-project/20190314000043-1-jpg-cc547e29a761bd0682ddf1037b9e388f.jpg"
+      ],
+      "installationstype": "addon",
+      "understoetterReplace": false,
+      "modelnavne": [],
+      "kraever": [
+        "eup"
+      ],
+      "koen": [
+        "mand",
+        "kvinde"
+      ],
+      "pakke": {
+        "operations": [
+          {
+            "type": "oivInstall",
+            "from": "**/*.oiv"
+          }
+        ]
+      },
+      "outfits": []
+    }
+  ],
+  "afhaengigheder": []
+}
