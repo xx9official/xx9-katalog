@@ -44,13 +44,13 @@
       "id": "achillesdk-2016-vw-touran",
       "kategori": "vehicle",
       "navn": "2016 VW Touran – Politi",
-      "beskrivelse": "Dansk politi-Touran af AchillesDKMods. Erstatter GTA's sheriff2 (ægte replace) og har sin egen ELS-lysopsætning.",
+      "beskrivelse": "Dansk politi-Touran af AchillesDKMods. Erstatter GTA's sheriff2 (ægte replace). Lyset bruger pakkens 2016touran.xml som SHERIFF2.xml, fordi pakkens egen SHERIFF2.xml har en fejl.",
       "skaber": "AchillesDKMods",
       "kilde": "https://desiiignerweb.wixsite.com/achillesmods/politibiler",
       "distribution": "external",
       "forventetFil": "2016 Volkswagen Touran POLITI.rar",
       "sha256": "A071D5A43B88906FC5CC42F7FE75E2818EA4ADB01D9B73B2B4DBA509056B391C",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "politi"
       ],
@@ -70,7 +70,7 @@
         "operations": [
           {
             "type": "copyFile",
-            "from": "**/SHERIFF2.xml",
+            "from": "**/2016touran.xml",
             "to": "ELS\\pack_default\\SHERIFF2.xml",
             "allowRoot": false
           }
