@@ -641,6 +641,42 @@
         ]
       },
       "outfits": []
+    },
+    {
+      "id": "xx9-xx9-speedometer-fuel-system",
+      "kategori": "plugin",
+      "navn": "XX9 Speedometer/Fuel system",
+      "beskrivelse": "Et rent og diskret speedometer til LSPDFR, der sidder lige ved siden af minimappet. Det gør kørslen mere realistisk.\n\n**Funktioner**\n- Speedometer med fart, gear og en fartbjælke\n- Blink og katastrofeblink med lyd fra et rigtigt blinkrelæ. Blinket slukker selv, når du har drejet\n- Fartpilot, der holder farten for dig. Den slår fra, når du bremser\n- Sele: kører du uden, ringer advarslen, og ved et hårdt sammenstød flyver du ud gennem forruden\n- Benzin, der bliver brugt, mens du kører. Tank ved standerne på tankstationerne. Benzinen huskes, også når du lukker spillet\n\nBlink venstre / højre\t← / →\nKatastrofeblink\t↓\nSele på / af\t\t Z\nFartpilot til / fra\tDelete\nFartpilot +5 / -5 km/t\tPage Up / Page Down\nTank\tHold E ved standeren",
+      "skaber": "xx9",
+      "kilde": "https://xx9mods.dk/?mod=6fc33785-50e9-4719-8770-850841642818",
+      "distribution": "external",
+      "forventetFil": "xx9_Speedometer.zip",
+      "sha256": "07154BC09BD90A564AC13A2442E87BD855E688D1654D06BAA508868AAA603D1B",
+      "version": "1.0",
+      "tags": [
+        "plugin"
+      ],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/xx9-xx9-speedometer-fuel-system/xx9-xx9-speedometer-fuel-system.jpg"
+      ],
+      "installationstype": "addon",
+      "understoetterReplace": false,
+      "modelnavne": [],
+      "kraever": [
+        "lspdfr"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFolder",
+            "from": "xx9_Speedometer\\Grand Theft Auto V",
+            "to": ".",
+            "allowRoot": true
+          }
+        ]
+      },
+      "outfits": []
     }
   ],
   "afhaengigheder": []
