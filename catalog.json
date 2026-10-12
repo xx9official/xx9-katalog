@@ -605,6 +605,42 @@
         ]
       },
       "outfits": []
+    },
+    {
+      "id": "xx9-policing-redefined-paa-dansk",
+      "kategori": "plugin",
+      "navn": "Policing Redefined på dansk",
+      "beskrivelse": "Oversat til dansk og klar til brug. Pakken indeholder hele pluginnet, så du skal kun have LSPDFR installeret i forvejen.\n\n- Alle menuer og beskeder er på dansk.\n- Folk svarer på dansk i T-menuen: over 2.000 svar, der passer til deres humør, og om de er fulde eller påvirkede.\n- Det, du finder ved visitation og ransagning af biler, er på dansk.\n- Vagtcentralen taler dansk over radioen.\n- Danske begreber som færdselsstop, højrisikostop, AKS, fangetransport, sømmåtte og alkometer.",
+      "skaber": "xx9",
+      "kilde": "https://xx9mods.dk/?mod=05588981-c179-452c-a99d-1f4fca854a98",
+      "distribution": "external",
+      "forventetFil": "PolicingRedefined_Dansk.zip",
+      "sha256": "F09B458881A7EDEC7461178D7882EAD960A3A61DAD1EDEB055EBC6CAD16333D8",
+      "version": "1.0",
+      "tags": [
+        "plugin"
+      ],
+      "billeder": [
+        "https://raw.githubusercontent.com/xx9official/xx9-katalog/main/billeder/xx9-policing-redefined-paa-dansk/xx9-policing-redefined-paa-dansk.jpg"
+      ],
+      "installationstype": "addon",
+      "understoetterReplace": false,
+      "modelnavne": [],
+      "kraever": [
+        "lspdfr"
+      ],
+      "koen": [],
+      "pakke": {
+        "operations": [
+          {
+            "type": "copyFolder",
+            "from": "PolicingRedefined_Dansk\\Grand Theft Auto V",
+            "to": ".",
+            "allowRoot": true
+          }
+        ]
+      },
+      "outfits": []
     }
   ],
   "afhaengigheder": []
